@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #252525;
+}
+
+.header__logo2 {
+  font-size: 2rem;
+  font-style: italic;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+li,
+a {
+  text-decoration: none;
+  color: #f3f3f3;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding: 1vh 3vw;
+}
+
+.nav__links2 {
+  list-style: none;
+}
+
+.nav__links2 li {
+  display: inline-block;
+  padding: 0 2vw;
+}
+
+.nav__links2 li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links2 li a:hover {
+  color: #252525;
+}
+
+header,
+nav,
+ul,
+li,
+a {
+  background-color: orange;
+}

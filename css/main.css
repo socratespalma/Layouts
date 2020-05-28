@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header__logo {
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: 600;
+}
+
+li,
+a {
+  text-decoration: none;
+  color: #f3f3f3;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vh 5vw;
+}
+
+.nav__links {
+  list-style: none;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0 3vw;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: gray;
+}
+
+header,
+nav,
+ul,
+li,
+a {
+  background-color: #252525;
+}
